@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+html {
+ box-sizing: content-box;
+  font-size: 62.5%;
+  font-family: "Montserrat";
+}
+
+body {
+  margin: 0;
+
+  display: grid;
+  grid-template-rows: 2 auto;
+  grid-template-columns: minmax(20rem, 40rem) auto;
+
+  box-shadow: 0 1rem 3rem rgba(#000, 0.3);
+
+  font-family: Montserrat;
+  font-size: 1.6rem;
+}
